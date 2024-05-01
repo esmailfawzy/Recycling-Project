@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Ojuju:wght@200..800&display=swap');
+
+* {
+    font-family: 'Ojuju', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    color: rgb(213, 213, 213);
+    align-items: center;
+    padding: 0 100px;
+    border-top: solid white 4px;
+    position: 0;
+    width: 100%;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: 15px;
+    transition: 0.5s ease;
+    justify-content: end;
+}
+
+header img {
+    display: flex;
+    justify-content: center;
+    order: 1;
+    position: absolute;
+    left: 0;
+    width: 6%;
+    max-width: 60px;
+    height: auto;
+    margin: 0em;
+    box-shadow: 2px 2px 4px rgba(26, 24, 24, 0.4);
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 13px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 49px;
+    z-index: 999;
+    height: 49px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header a:hover {
+    color: #fbf306;
+    font-size: 17px;
+}
+
+.carsour {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-image: url(images/th\ \(3\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: #1b1a1a;
+    background-position: center;
+}
+
+
+.carsour div {
+    margin-left: 80px;
+}
+
+.carsour span {
+    color: #74c94a;
+}
+
+.carsour a {
+    color: #000000;
+    text-decoration: none;
+    background: #fbf306;
+    padding: 10px;
+    border-radius: 0px 30px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 70;
+    transition: 1s ease;
+    font-size: 20;
+    font-weight: 700;
+
+}
+
+
+.nav a {
+    display: block;
+    top: 10px;
+    left: 10px;
+
+}
+
+.carsour a:hover {
+    color: #efefe3;
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+.Services h2 {
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 30px;
+}
+
+.Services .contaniner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 80px;
+    justify-content: center;
+}
+
+.Services .card {
+
+    margin-right: 20px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    padding: 10px;
+    width: 16em;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.card h3 {
+    color: #5cb10c;
+    font-weight: 1000;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.Services .card>div {
+    color: #1b1a1a;
+    font-size: 45px;
+
+}
+
+.Portfolio {
+    background-color: #fafafa;
+    text-align: center;
+    color: #000000;
+    padding: 30px 100px;
+}
+
+.Portfolio h2 {
+    color: #000;
+    font-size: 40;
+    margin-bottom: 20px;
+    border-bottom: solid green;
+    display: inline-block
+}
+
+
+.Portfolio .contaniner {
+
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Portfolio .card {
+    border: solid;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    ;
+    width: 15em;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+.Portfolio button {
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #53f800;
+    padding: 0px 5px;
+    border: none;
+    font-size: 18px;
+    justify-content: center;
+
+
+}
+
+.Portfolio .card-d {
+    margin: 0px 10px;
+
+}
+
+.Portfolio .card-d button {
+    margin: left 10px;
+    align-self: end;
+    font-weight: 400;
+
+
+
+}
+
+.Portfolio .card p {
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: 900;
+}
+
+.Portfolio img {
+    height: 12em;
+    width: 100%;
+}
+
+
+.img {
+    width: 40;
+}
+
+section.login h2 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px 20px;
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+section.login img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 190px;
+
+
+}
+
+section.login {
+    width: 450;
+    height: 450px;
+    padding: 0px 50px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background-color: rgb(9, 58, 4);
+}
+
+
+.login label {
+    color: #f0ebeb;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    height: 40px;
+    font-size: 20px;
+    background: peru;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transform: .5s ease;
+}
+
+
+.login input[type="submit"]:hover {
+    transform: scale(1.1);
+}
+
+.login a {
+    text-decoration: none;
+    color: #ccc;
+
+    font-weight: bold;
+    font-size: 18px;
+}
+h4{
+    color: #ffffff;
+}
+
